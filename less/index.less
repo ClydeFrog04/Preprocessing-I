@@ -62,7 +62,19 @@ table {
 }
 
 html, body {
-    background-color: #D7F9F1;
+    //background-color: #D7F9F1;//original bg color
+    //background: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5));
+
+    //background: rgb(151,151,151);
+    //background: radial-gradient(circle, rgba(151,151,151,1) 0%, rgba(71,71,71,1) 77%);
+    //background: rgb(151,151,151);
+    //background: radial-gradient(circle, rgba(151,151,151,1) 0%, rgba(178,255,180,1) 77%);
+
+    //background: rgb(163,215,164);
+    //background: radial-gradient(circle, rgba(163,215,164,1) 0%, rgba(178,255,180,1) 77%);
+
+    background: rgb(124,163,125);
+    background: radial-gradient(circle, rgba(124,163,125,1) 0%, rgba(178,255,180,1) 77%);
 }
 
 html {
@@ -100,11 +112,17 @@ p {
 @phone: ~"(max-width: 500px)";
 
 //variables
+//original color scheme
 @defaultMargin: 1%;
 @mainFontColor: #40531B;
 @oddEntryColor: #AFBC88;
 @evenEntryColor: #618B4A;
 @hoverColor: darken(#7AA095, 5%);
+
+@evenEntryColor: #186f68;
+@evenEntryColor: #56d5ff;
+@mainFontColor: #474747;
+@oddEntryColor: #ffff93;
 
 //mixins
 .linkDefault() {

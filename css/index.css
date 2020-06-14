@@ -134,7 +134,8 @@ table {
 }
 html,
 body {
-  background-color: #D7F9F1;
+  background: #7ca37d;
+  background: radial-gradient(circle, #7ca37d 0%, #b2ffb4 77%);
 }
 html {
   font-size: 62.5%;
@@ -161,12 +162,12 @@ p {
 }
 /*styles*/
 .container {
-  color: #40531B;
+  color: #474747;
 }
 .container hr {
   height: 0;
   border: 0;
-  border-top: 1px solid #40531B;
+  border-top: 1px solid #474747;
   width: 66%;
   margin: 4% auto;
 }
@@ -185,7 +186,7 @@ footer nav {
 header nav a,
 footer nav a {
   text-decoration: none;
-  color: #40531B;
+  color: #474747;
   font-size: 1.8rem;
   margin: 1% 0;
 }
@@ -290,7 +291,7 @@ section {
   margin: 1% 0;
 }
 .experience p a {
-  color: #40531B;
+  color: #474747;
 }
 .experience .contentHeader {
   display: flex;
@@ -307,7 +308,7 @@ section {
   display: none;
 }
 .experience .content .entry {
-  background-color: #AFBC88;
+  background-color: #ffff93;
   padding: 0.75rem;
   display: flex;
   justify-content: space-around;
@@ -326,7 +327,7 @@ section {
   margin: 0 1%;
 }
 .experience .content .entry:nth-child(even) {
-  background-color: #6d9c53;
+  background-color: #70dbff;
 }
 .experience .content .entry:first-of-type {
   border-top-right-radius: 10px;
